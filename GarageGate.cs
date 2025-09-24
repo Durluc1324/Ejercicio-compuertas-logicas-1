@@ -9,9 +9,9 @@ public class GarageGate
     private Not not2 = new Not("Compuerta NOT 2 (B)");
     private Or or1 = new Or("Compuerta OR (AND 1, AND 2");
 
-    private int botonA;
-    private int botonB;
-    private int botonC;
+    public int botonA { get; set; }
+    public int botonB { get; set; }
+    public int botonC { get; set; }
 
     public GarageGate(int unBotonA, int unBotonB, int unBotonC)
     {
