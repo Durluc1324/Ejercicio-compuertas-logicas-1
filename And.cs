@@ -28,4 +28,9 @@ public class And: ICompuertas
 
         return Salida;
     }
+
+    public void LimpiarEntradas()
+    {
+        Entradas.Clear();
+    }
 }

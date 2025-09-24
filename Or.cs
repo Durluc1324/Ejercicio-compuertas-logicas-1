@@ -22,4 +22,9 @@ public class Or: ICompuertas
         Salida = Entradas.Max();
         return Salida;
     }
+
+    public void LimpiarEntradas()
+    {
+        Entradas.Clear();
+    }
 }

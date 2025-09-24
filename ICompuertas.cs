@@ -16,4 +16,9 @@ public interface ICompuertas
         return Salida;
     }
 
+    public void LimpiarEntradas()
+    {
+        
+    }
+
 }

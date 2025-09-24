@@ -26,4 +26,9 @@ public class Not: ICompuertas
         
         return Salida;
     }
+
+    public void LimpiarEntradas()
+    {
+        Entradas.Clear();
+    }
 }
